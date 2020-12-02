@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.icon_font_size{
+    font-size: 25px;
+}
+.content_margin{
+    margin:10px;
+}
+
+.main_header{
+    background-color:rgba(235, 235, 235, 0.288);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_list_items{
+    list-style-type: none;
+    display: flex;
+}
+
+.main_header .main_heading{
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-family: 'Satisfy', cursive;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main p{
+    font-size:40px;
+    color: rgb(236, 16, 16);
+    font-family: "Calibri";
+}
+
+
+footer{
+    background-color:rgba(235, 235, 235, 0.288);
+    position:fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+}
+
+.footer_list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
